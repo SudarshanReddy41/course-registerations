@@ -1,0 +1,14 @@
+# Database connection properties
+spring.datasource.driver-class-name: Driver URL
+spring.datasource.username: UserName of database
+spring.datasource.password: Password of database
+spring.datasource.url: DBConnection host url
+
+# Log JPA queries
+spring.jpa.show-sql: true
+
+# Drop and create new tables (create, create-drop, validate, update)
+spring.jpa.hibernate.ddl-auto: create
+
+# Hibernate SQL dialect
+spring.jpa.properties.hibernate.dialect: DBDialect of database like oracle, mysql etc..
